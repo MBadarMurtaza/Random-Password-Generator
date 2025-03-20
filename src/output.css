@@ -168,8 +168,32 @@
   .m-0 {
     margin: calc(var(--spacing) * 0);
   }
+  .m-\[1\] {
+    margin: 1;
+  }
+  .m-\[12\%\] {
+    margin: 12%;
+  }
+  .m-\[12\] {
+    margin: 12;
+  }
+  .mt-\[50p\] {
+    margin-top: 50p;
+  }
+  .mt-\[50px\] {
+    margin-top: 50px;
+  }
+  .mr-\[10px\] {
+    margin-right: 10px;
+  }
+  .mb-\[30px\] {
+    margin-bottom: 30px;
+  }
   .box-border {
     box-sizing: border-box;
+  }
+  .flex {
+    display: flex;
   }
   .table {
     display: table;
@@ -186,33 +210,194 @@
   .h-svh {
     height: 100svh;
   }
+  .w-\[28px\] {
+    width: 28px;
+  }
+  .w-\[30px\] {
+    width: 30px;
+  }
+  .w-\[90\%\] {
+    width: 90%;
+  }
+  .w-\[90\] {
+    width: 90;
+  }
   .w-fit {
     width: fit-content;
   }
   .w-full {
     width: 100%;
   }
+  .max-w-\[700\] {
+    max-width: 700;
+  }
+  .max-w-\[700px\] {
+    max-width: 700px;
+  }
   .border-collapse {
     border-collapse: collapse;
   }
+  .cursor-pointer {
+    cursor: pointer;
+  }
+  .cursor-progress {
+    cursor: progress;
+  }
   .resize {
     resize: both;
+  }
+  .items-center {
+    align-items: center;
+  }
+  .justify-between {
+    justify-content: space-between;
+  }
+  .justify-center {
+    justify-content: center;
+  }
+  .rounded {
+    border-radius: 0.25rem;
+  }
+  .rounded-\[5px\] {
+    border-radius: 5px;
   }
   .border {
     border-style: var(--tw-border-style);
     border-width: 1px;
   }
+  .border-0 {
+    border-style: var(--tw-border-style);
+    border-width: 0px;
+  }
+  .border-b {
+    border-bottom-style: var(--tw-border-style);
+    border-bottom-width: 1px;
+  }
+  .border-b-4 {
+    border-bottom-style: var(--tw-border-style);
+    border-bottom-width: 4px;
+  }
+  .border-b-\[\#019\] {
+    border-bottom-color: #019;
+  }
+  .border-b-\[\#019f55\] {
+    border-bottom-color: #019f55;
+  }
+  .border-b-\[\#019f\] {
+    border-bottom-color: #019f;
+  }
+  .border-b-\[\#\] {
+    border-bottom-color: #;
+  }
+  .bg-\[\#019\] {
+    background-color: #019;
+  }
+  .bg-\[\#019f55\] {
+    background-color: #019f55;
+  }
+  .bg-\[\#019f\] {
+    background-color: #019f;
+  }
+  .bg-\[\#19\] {
+    background-color: #19;
+  }
   .bg-\[\#00203a\] {
     background-color: #00203a;
+  }
+  .bg-\[\#\] {
+    background-color: #;
   }
   .bg-black {
     background-color: var(--color-black);
   }
+  .bg-white {
+    background-color: var(--color-white);
+  }
   .p-0 {
     padding: calc(var(--spacing) * 0);
   }
+  .p-\[1\] {
+    padding: 1;
+  }
+  .p-\[2\] {
+    padding: 2;
+  }
+  .p-\[16px\] {
+    padding: 16px;
+  }
+  .p-\[16px_2\] {
+    padding: 16px 2;
+  }
+  .p-\[16px_26\] {
+    padding: 16px 26;
+  }
+  .p-\[16px_26px\] {
+    padding: 16px 26px;
+  }
+  .p-\[16px_\] {
+    padding: 16px ;
+  }
+  .p-\[26\] {
+    padding: 26;
+  }
+  .p-\[26px\] {
+    padding: 26px;
+  }
+  .p-\[26px_20px\] {
+    padding: 26px 20px;
+  }
+  .p-\[26px_\] {
+    padding: 26px ;
+  }
+  .pb-\[7\] {
+    padding-bottom: 7;
+  }
+  .pb-\[7p\] {
+    padding-bottom: 7p;
+  }
+  .pb-\[7px\] {
+    padding-bottom: 7px;
+  }
   .font-sans {
     font-family: var(--font-sans);
+  }
+  .text-\[22px\] {
+    font-size: 22px;
+  }
+  .text-\[24px\] {
+    font-size: 24px;
+  }
+  .text-\[45px\] {
+    font-size: 45px;
+  }
+  .font-\[300\] {
+    --tw-font-weight: 300;
+    font-weight: 300;
+  }
+  .font-\[500\] {
+    --tw-font-weight: 500;
+    font-weight: 500;
+  }
+  .text-\[\#0\] {
+    color: #0;
+  }
+  .text-\[\#019\] {
+    color: #019;
+  }
+  .text-\[\#019f55\] {
+    color: #019f55;
+  }
+  .text-\[\#019f\] {
+    color: #019f;
+  }
+  .text-\[\#333\] {
+    color: #333;
+  }
+  .text-\[\#\] {
+    color: #;
+  }
+  .text-\[24\] {
+    color: 24;
   }
   .text-white {
     color: var(--color-white);
@@ -224,11 +409,19 @@
     outline-style: var(--tw-outline-style);
     outline-width: 1px;
   }
+  .outline-0 {
+    outline-style: var(--tw-outline-style);
+    outline-width: 0px;
+  }
 }
 @property --tw-border-style {
   syntax: "*";
   inherits: false;
   initial-value: solid;
+}
+@property --tw-font-weight {
+  syntax: "*";
+  inherits: false;
 }
 @property --tw-outline-style {
   syntax: "*";
