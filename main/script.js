@@ -1,3 +1,4 @@
+// This file contain all the logic 
 const passwordBox = document.getElementById("input");
 const lenght = 12;
 const upperCase = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
