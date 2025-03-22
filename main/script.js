@@ -13,7 +13,7 @@ function createPassword() {
   }
   passwordBox.value = password;
 }
-// this function is used copy the password
+
 function copyPassword() {
   passwordBox.select();
   document.execCommand("copy");
