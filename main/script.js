@@ -6,6 +6,7 @@ const number = "0123456789";
 const symbol = "!@#$%^&*()_+~|/[]{}?<=>-";
 const allChars = upperCase + lowerCase + number + symbol;
 
+// this function is used to create password
 function createPassword() {
   let password = "";
   while (password.length < lenght) {
